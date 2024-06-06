@@ -12,6 +12,7 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    padding-bottom: 10vw;
 }
 main {
     width: 78vw;
@@ -58,4 +59,15 @@ h2 {
     line-height: 1.1;
     font-weight: 800;
     margin-top: 7rem;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: 200;
+    opacity: .5;
+}
+
+.subtitle {
+    opacity: .5;
 }
