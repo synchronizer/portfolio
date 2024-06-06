@@ -13,12 +13,11 @@ body {
     margin: 0;
     overflow-x: hidden;
     padding-bottom: 10vw;
-}
-main {
     width: 78vw;
     margin-left: auto;
     margin-right: auto;
 }
+
 @media (max-width: 430px) {
     main {
         width: 86vw;
@@ -45,12 +44,13 @@ h1, h2, h3, h4 {
 p {
     text-wrap: pretty;
     max-width: 40em;
+    margin: .5em 0;
 }
 
 h3 {
     font-size: 1rem;
     margin-top: 2em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     font-weight: 600;
 }
 
@@ -65,10 +65,13 @@ h2 {
 h1 {
     font-size: 1rem;
     font-weight: 200;
-    opacity: .5;
 }
 
 .subtitle {
     opacity: .5;
     margin-top: .5em;
+}
+
+header {
+    opacity: .5;
 }
