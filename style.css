@@ -3,7 +3,7 @@
 html{
     background-color: #1e1e1e;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5vw;
+    font-size: max(1.5vw, 16px);
     line-height: 1.5;
     color: #fff;
     font-weight: 200;
@@ -20,10 +20,15 @@ main {
 
 img {
     max-width: 80vw;
+    display: block;
 }
 
 img:first-child {
     margin-top: 3rem;
+}
+
+figure {
+    margin: 0;
 }
 
 h1, h2, h3, h4 {
@@ -32,6 +37,7 @@ h1, h2, h3, h4 {
 
 p {
     text-wrap: pretty;
+    max-width: 40em;
 }
 
 h3 {
