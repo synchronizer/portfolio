@@ -24,12 +24,12 @@ body {
     }
 }
 
-img {
+img, video {
     max-width: 80vw;
     display: block;
 }
 
-img:first-child {
+img:first-child, video:first-of-type {
     margin-top: 3rem;
 }
 
@@ -58,7 +58,7 @@ h2 {
     font-size: 2rem;
     line-height: 1.1;
     font-weight: 800;
-    margin-top: 7rem;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -74,4 +74,46 @@ h1 {
 
 header {
     opacity: .5;
+}
+
+
+.budu_logo[hidden] {
+    opacity: 0;
+    scale: 3;
+}
+
+.budu_logo {
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(0.275, 1.335, 0.495, 1.080);
+}
+
+.budu_button {
+    position: relative;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+}
+
+.budu_button[hidden] {
+    display: none;
+}
+
+section {
+    position: relative;
+    margin-top: 7rem;
+}
+
+
+button {
+    font-size: 1rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 1px #fff;
+    font-family: "Montserrat";
+    font-weight: 200;
 }
