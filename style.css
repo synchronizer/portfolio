@@ -121,3 +121,13 @@ button {
     font-family: "Montserrat";
     font-weight: 200;
 }
+
+a:any-link {
+    text-decoration: none;
+    color: #0095FF;
+    margin-right: 1em;
+}
+
+a:hover {
+    color: #80CAFF;
+}
