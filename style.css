@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html{
-    background-color: #1e1e1e;
+    background-color: #000;
     font-family: "Montserrat", sans-serif;
     font-size: max(1.5vw, 16px);
     line-height: 1.5;
